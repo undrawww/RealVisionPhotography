@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Real Vision Photography - Capturing authentic moments and creating lasting memories">
+  <title>Real Vision Photography</title>
+  <link rel="stylesheet" href="styles-about.css" type="text/css">
+  <link rel="icon" type="image/jpg" href="Assets/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kreon:wght@300..700&family=Literata:ital,opsz,wght@0,7..72,200..900;1,7..72,200..900&family=Spectral+SC:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <a href="#"><img src="Assets/logo.png" alt="Real Vision Photography Logo"></a>
+      </div>
+      <ul class="navlist">
+        <li class="navitem"><a href="index.html" class="navlink">Home</a></li>
+        <li class="navitem"><a href="albums.html" class="navlink">Albums</a></li>
+        <li class="navitem"><a href="about.html" class="navlink">About</a></li>
+        <li class="navitem"><a href="packages.html" class="navlink">Packages</a></li>
+        <li class="navitem"><a href="contactus.html" class="navlink">Contact Us</a></li>
+      </ul>
+      <button class="menu-toggle" aria-label="Toggle navigation menu">
+        <span class="menu-bar"></span>
+        <span class="menu-bar"></span>
+        <span class="menu-bar"></span>
+      </button>
+    </nav>
+  </header>
+  <main>
+      <section class="albums-banner fade-in-element">
+        <img src="Assets/shot.jpg" alt="About Us Banner" class="albums-banner-bg">
+        <div class="albums-banner-content fade-in-element">
+          <h1>About Us</h1>
+          <p>Years in the making!</p>
+        </div>
+      </section>
+      <section class="about-two-col fade-in-element">
+        <div class="about-img-col">
+          <img src="AlbumsPics/SHOT-1.jpg" alt="About Real Vision Photography" />
+        </div>
+        <div class="about-text-col">
+          <img src="Assets/logo.png" alt="Real Vision Photography Logo" class="about-logo" />
+          <h2 class="about-title">REAL VISION PHOTOGRAPHY</h2>
+          <p class="about-desc"><em>Real Vision Photography</em> Real Vision Photography was established by the Malabo brothers with a clear mission: to deliver exceptional visual storytelling through high-quality photography. Since its inception, the company has grown steadily, expanding both its team and its client base. Our team now includes a diverse group of skilled professionals who bring expertise, creativity, and a shared commitment to excellence.<br><br>
+            As we continue to evolve, Real Vision Photography remains dedicated to providing clients with premium services that capture meaningful moments with precision and artistry. Our growth reflects the trust of our clients and our ongoing pursuit of innovation in every frame. With a steadily expanding client base, Real Vision Photography continues to pursue new levels of creative excellence—delivering impactful imagery, compelling stories, and outstanding visual experiences.</p>
+        </div>
+      </section>
+      <hr class="package-divider" />
+      <section class="review-slider-section fade-in-element">
+        <div class="review-slider" id="reviewSlider">
+          <div class="review-slide active">
+            <div class="review-stars">★★★★★</div>
+            <div class="review-text">“Superb ung mga captured moments.
+              Very friendly lahat ng staff at mabilis kausap”</div>
+            <div class="review-author">– Shey Yne.</div>
+          </div>
+          <div class="review-slide">
+            <div class="review-stars">★★★★☆</div>
+            <div class="review-text">“Highly recommended good service and quality pictures and videos. Thumbs up!”</div>
+            <div class="review-author">– Kella Kusinera</div>
+          </div>
+          <div class="review-slide">
+            <div class="review-stars">★★★★★</div>
+            <div class="review-text">“Thank you Real Vision for the beautiful photos..”</div>
+            <div class="review-author">– Helen Grace Salvador-Guston</div>
+          </div>
+        </div>
+      </section>
+      <hr class="package-divider" />
+      <section class="feedback-form-section fade-in-element">
+        <form class="feedback-form" action="https://formspree.io/f/xkgrezjr" method="POST">
+          <h3>Leave Your Feedback</h3>
+          <div class="feedback-form-group">
+            <label for="feedbackName">Name</label>
+            <input type="text" id="feedbackName" name="name" required />
+          </div>
+          <div class="feedback-form-group">
+            <label>Rating</label>
+            <div class="star-rating" id="starRating">
+              <span class="star" data-value="1">&#9733;</span>
+              <span class="star" data-value="2">&#9733;</span>
+              <span class="star" data-value="3">&#9733;</span>
+              <span class="star" data-value="4">&#9733;</span>
+              <span class="star" data-value="5">&#9733;</span>
+            </div>
+            <input type="hidden" name="rating" id="ratingValue" required />
+          </div>
+          <div class="feedback-form-group">
+            <label for="feedbackText">Feedback</label>
+            <textarea id="feedbackText" name="feedback" rows="4" required></textarea>
+          </div>
+          <button type="submit" class="feedback-submit-btn">Submit Feedback</button>
+        </form>
+      </section>
+  </main>
+  <section class="slider">
+    <div class="slide-track">
+      <div class="slide">
+        <img src="Partnerships/SHOTBYAPENG.png" height="100" width="250" alt="" />
+      </div>
+      <div class="slide">
+        <img src="Partnerships/K&A.png" height="100" width="250" alt="" />
+      </div>
+      <div class="slide">
+        <img src="Partnerships/PXL.png" height="100" width="250" alt="" />
+      </div>
+      <div class="slide">
+        <img src="Partnerships/NESCEL.png" height="100" width="250" alt="" />
+      </div>
+      <div class="slide">
+        <img src="Partnerships/Z&L.png" height="100" width="250" alt="" />
+      </div>
+      <div class="slide">
+        <img src="Partnerships/JA.png" height="100" width="250" alt="" />
+      </div>
+      <div class="slide">
+        <img src="Partnerships/EMC.png" height="100" width="250" alt="" />
+      </div>
+      <div class="slide">
+        <img src="Partnerships/SHOTBYAPENG.png" height="100" width="250" alt="" />
+      </div>
+      <div class="slide">
+        <img src="Partnerships/K&A.png" height="100" width="250" alt="" />
+      </div>
+      <div class="slide">
+        <img src="Partnerships/PXL.png" height="100" width="250" alt="" />
+      </div>
+      <div class="slide">
+        <img src="Partnerships/NESCEL.png" height="100" width="250" alt="" />
+      </div>
+      <div class="slide">
+        <img src="Partnerships/Z&L.png" height="100" width="250" alt="" />
+      </div>
+      <div class="slide">
+        <img src="Partnerships/JA.png" height="100" width="250" alt="" />
+      </div>
+      <div class="slide">
+        <img src="Partnerships/EMC.png" height="100" width="250" alt="" />
+      </div>
+    </div>
+  </section>
+</main>
+<footer class="main-footer">
+  <div class="footer-location">VALENZUELA BASED EVENT PHOTOGRAPHER</div>
+  <div class="footer-copyright">© 2025 Real Vision Photography | <a class="terms-privacy" href="terms.html">Terms</a> | <a class="terms-privacy" href="privacy.html">Privacy Policy</a></div>
+</footer>
+
+<script src="loading-overlay.js"></script>
+<script src="nav.js"></script>
+<script src="script.js"></script>
+<script src="review-slider.js"></script>
+</body>
+</html>

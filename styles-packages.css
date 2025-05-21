@@ -432,5 +432,28 @@
     .navitem {
       margin: 16px 0;
     }
+
+    .exact-package-row {
+      flex-direction: column;
+      text-align: center;
+      gap: 1.5rem;
+    }
+
+    .exact-package-row.reverse {
+      flex-direction: column !important;
+    }
+
+    .exact-package-text {
+      padding: 0 1rem;
+    }
+
+    .exact-package-text h2 {
+      font-size: 2rem;
+    }
+
+    .exact-package-text ul {
+      display: inline-block;
+      text-align: left;
+    }
     
 }
